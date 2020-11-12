@@ -125,11 +125,11 @@ jdbcDF.collect().foreach(
 
 大致流程如下：
 
- ![电影推荐流程](C:\Users\Administrator\Desktop\电影推荐流程.png)
+ ![电影推荐流程](https://github.com/zerolbsony/kaggle/blob/master/Netflix/电影推荐流程.png)
 
 透视表的结果示例，这里取样本时只选取了3个电影：
 
-![image-20201112231859542](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20201112231859542.png)
+![image-20201112231859542](https://github.com/zerolbsony/kaggle/blob/master/Netflix/%E4%BE%8B%E5%AD%90.png)
 
 流程中省略了训练过程，其实训练过程主要就是为了在训练样本中得到好的效果，得出调包时参数值填什么。
 
@@ -143,6 +143,6 @@ jdbcDF.collect().foreach(
 
 大致流程如下：
 
-![image-20201113003521824](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20201113003521824.png)
+![image-20201113003521824](https://github.com/zerolbsony/kaggle/blob/master/Netflix/spark.png)
 
 优点：可以借助spark的分布式计算得到全局结果，简化了代码的编写。
